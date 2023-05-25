@@ -23,6 +23,8 @@ public class Main {
 
         NoGenericMethods ngm = new NoGenericMethods(persona1, persona2, persona3);
 
+        System.out.println("---Exercici1---");
+
         System.out.println(ngm.getPersonas());
 
         ngm.emmagatzemar(persona1);
@@ -34,6 +36,7 @@ public class Main {
         System.out.println(ngm.getPersonas());
 
         // Exercici 2 --------------------------------------------------------------------------------------------------
+        System.out.println("\n---Exercici2---");
         GenericMethods.metodeGeneric(persona1, "String de prueba", 12);
 
     }
