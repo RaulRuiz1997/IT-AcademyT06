@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.exercici1.NoGenericMethods;
+import org.example.exercici2.GenericMethods;
 import org.example.exercici2.Persona;
 
 public class Main {
@@ -32,10 +33,8 @@ public class Main {
 
         System.out.println(ngm.getPersonas());
 
-
         // Exercici 2 --------------------------------------------------------------------------------------------------
-
-
+        GenericMethods.metodeGeneric(persona1, "String de prueba", 12);
 
     }
 
